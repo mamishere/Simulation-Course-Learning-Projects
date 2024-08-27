@@ -1,0 +1,2162 @@
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 215.97697 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .32194     (Insuf)    .18101     .51930        100    
+tal.TimeSpentInHarbor                       32.437     (Insuf)    .00000     86.386        100    
+tal.TimeSpentInSystem                       42.262     (Insuf)    4.6534     107.40        100    
+Unloading A.WaitTimePerEntity               .92796     (Insuf)    .00000     4.5438         61    
+Unloading B.WaitTimePerEntity               5.5000     (Insuf)    .00000     16.745         39    
+Commuting to Terminal.WaitTimePerEntity     .01654     (Insuf)    .00000     .35590        100    
+Commuting to Terminal.TotalTimePerEntity    .33848     (Insuf)    .18101     .80756        100    
+Unloading A.TotalTimePerEntity              7.3065     (Insuf)    3.0263     12.295         61    
+Unloading B.TotalTimePerEntity              12.895     (Insuf)    5.0110     23.132         39    
+tal.TimeSpentInTerminal                     9.4864     (Insuf)    3.0263     23.132        100    
+Unloading A.VATimePerEntity                 6.3785     (Insuf)    2.8288     11.745         61    
+Unloading B.VATimePerEntity                 7.3958     (Insuf)    4.6769     11.140         39    
+ent.Ship.VATime                             7.0972     (Insuf)    3.2151     12.001        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           35.164     (Insuf)    .00000     101.59        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          42.262     (Insuf)    4.6534     107.40        100    
+Free Len.A.Queue.WaitingTime                3.0865     (Insuf)    .00000     7.1402         23    
+Unloading B.Queue.WaitingTime               5.5000     (Insuf)    .00000     16.745         39    
+Liner Terminal A Siezing.Queue.WaitingTime  .28199     (Insuf)    .00000     6.4858         23    
+Commuting to Terminal.Queue.WaitingTime     .01654     (Insuf)    .00000     .35590        100    
+Free Len.A or B.Queue.WaitingTime           41.119     (Insuf)    .00000     86.386         77    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         38    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         39    
+Unloading A.Queue.WaitingTime               .92796     (Insuf)    .00000     4.5438         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                19.567     (Insuf)    .00000     42.000     .00000    
+rec.TerminalBLength.NumberBusy              722.41     (Insuf)    .00000     999.68     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .72242     (Insuf)    .00000     .99968     .00000    
+rec.CraneB.NumberBusy                       4.8172     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .96345     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.7522     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .93806     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .14906     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .14906     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              596.46     (Insuf)    .00000     798.09     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .74558     (Insuf)    .00000     .99761     .00000    
+Free Len.A.Queue.NumberInQueue              .32870     (Insuf)    .00000     5.0000     .00000    
+Unloading B.Queue.NumberInQueue             .99317     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .03003     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00766     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         14.660     (Insuf)    .00000     37.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .26209     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 56.605    
+Unloading B Accum Wait Time                 214.50    
+Commuting to Terminal Accum VA Time         32.193    
+Commuting to Terminal Accum Wait Time       1.6541    
+Unloading A Accum VA Time                   389.09    
+Unloading A Number In                       61.000    
+Unloading B Number In                       39.000    
+Unloading A Number Out                      61.000    
+Unloading B Accum VA Time                   288.43    
+Unloading B Number Out                      39.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            11953.    
+rec.TerminalBLength.ScheduledUtilization    .72242    
+rec.CraneB.NumberSeized                     43.000    
+rec.CraneB.ScheduledUtilization             .96345    
+rec.CraneA.NumberSeized                     63.000    
+rec.CraneA.ScheduledUtilization             .93806    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .14906    
+rec.TerminalALength.NumberSeized            16325.    
+rec.TerminalALength.ScheduledUtilization    .74558    
+System.NumberOut                            100.00    
+
+Beginning replication 2 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 333.28974 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .32955     (Insuf)    .10956     .49659        100    
+tal.TimeSpentInHarbor                       76.365     (Insuf)    .00000     200.93        100    
+tal.TimeSpentInSystem                       92.236     (Insuf)    6.2249     223.26        100    
+Unloading A.WaitTimePerEntity               7.0158     (Insuf)    .00000     19.390         53    
+Unloading B.WaitTimePerEntity               9.4552     (Insuf)    .00000     21.524         47    
+Commuting to Terminal.WaitTimePerEntity     .01956     (Insuf)    .00000     .40952        100    
+Commuting to Terminal.TotalTimePerEntity    .34911     (Insuf)    .10956     .76438        100    
+Unloading A.TotalTimePerEntity              13.869     (Insuf)    3.8671     23.008         53    
+Unloading B.TotalTimePerEntity              17.385     (Insuf)    5.8661     29.927         47    
+tal.TimeSpentInTerminal                     15.521     (Insuf)    3.8671     29.927        100    
+Unloading A.VATimePerEntity                 6.8531     (Insuf)    2.5458     12.126         53    
+Unloading B.VATimePerEntity                 7.9305     (Insuf)    4.6808     12.007         47    
+ent.Ship.VATime                             7.6890     (Insuf)    2.8758     12.491        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           84.547     (Insuf)    .00000     214.65        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          92.236     (Insuf)    6.2249     223.26        100    
+Free Len.A.Queue.WaitingTime                6.9765     (Insuf)    .05802     24.376         17    
+Unloading B.Queue.WaitingTime               9.4552     (Insuf)    .00000     21.524         47    
+Liner Terminal A Siezing.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000         17    
+Commuting to Terminal.Queue.WaitingTime     .01956     (Insuf)    .00000     .40952        100    
+Free Len.A or B.Queue.WaitingTime           90.577     (Insuf)    .00000     200.93         83    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         36    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         47    
+Unloading A.Queue.WaitingTime               7.0158     (Insuf)    .00000     19.390         53    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                27.674     (Insuf)    .00000     56.000     .00000    
+rec.TerminalBLength.NumberBusy              771.10     (Insuf)    .00000     996.93     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .77111     (Insuf)    .00000     .99694     .00000    
+rec.CraneB.NumberBusy                       4.8803     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .97607     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.9638     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .99095     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .09888     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .09888     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              628.25     (Insuf)    .00000     796.70     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .78532     (Insuf)    .00000     .99588     .00000    
+Free Len.A.Queue.NumberInQueue              .35585     (Insuf)    .00000     5.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.3333     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00587     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         22.556     (Insuf)    .00000     48.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             1.1156     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 371.84    
+Unloading B Accum Wait Time                 444.39    
+Commuting to Terminal Accum VA Time         32.955    
+Commuting to Terminal Accum Wait Time       1.9563    
+Unloading A Accum VA Time                   363.21    
+Unloading A Number In                       53.000    
+Unloading B Number In                       47.000    
+Unloading A Number Out                      53.000    
+Unloading B Accum VA Time                   372.73    
+Unloading B Number Out                      47.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14548.    
+rec.TerminalBLength.ScheduledUtilization    .77111    
+rec.CraneB.NumberSeized                     51.000    
+rec.CraneB.ScheduledUtilization             .97607    
+rec.CraneA.NumberSeized                     56.000    
+rec.CraneA.ScheduledUtilization             .99095    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .09888    
+rec.TerminalALength.NumberSeized            14854.    
+rec.TerminalALength.ScheduledUtilization    .78532    
+System.NumberOut                            100.00    
+
+Beginning replication 3 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 3 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 221.47955 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33319     (Insuf)    .17659     .47948        100    
+tal.TimeSpentInHarbor                       38.414     (Insuf)    .00000     103.55        100    
+tal.TimeSpentInSystem                       49.265     (Insuf)    4.4610     123.63        100    
+Unloading A.WaitTimePerEntity               1.7384     (Insuf)    .00000     7.6038         63    
+Unloading B.WaitTimePerEntity               7.3600     (Insuf)    .00000     20.634         37    
+Commuting to Terminal.WaitTimePerEntity     .01634     (Insuf)    .00000     .38108        100    
+Commuting to Terminal.TotalTimePerEntity    .34953     (Insuf)    .17659     .71702        100    
+Unloading A.TotalTimePerEntity              8.0031     (Insuf)    3.4502     15.078         63    
+Unloading B.TotalTimePerEntity              14.755     (Insuf)    6.1814     29.080         37    
+tal.TimeSpentInTerminal                     10.501     (Insuf)    3.4502     29.080        100    
+Unloading A.VATimePerEntity                 6.2647     (Insuf)    2.1499     12.544         63    
+Unloading B.VATimePerEntity                 7.3953     (Insuf)    4.3775     11.186         37    
+ent.Ship.VATime                             7.0162     (Insuf)    2.3866     12.815        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           42.249     (Insuf)    .00000     115.58        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          49.265     (Insuf)    4.4610     123.63        100    
+Free Len.A.Queue.WaitingTime                2.6544     (Insuf)    .00000     8.7663         25    
+Unloading B.Queue.WaitingTime               7.3600     (Insuf)    .00000     20.634         37    
+Liner Terminal A Siezing.Queue.WaitingTime  .33563     (Insuf)    .00000     3.3682         25    
+Commuting to Terminal.Queue.WaitingTime     .01634     (Insuf)    .00000     .38108        100    
+Free Len.A or B.Queue.WaitingTime           50.222     (Insuf)    .00000     103.55         75    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         38    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         37    
+Unloading A.Queue.WaitingTime               1.7384     (Insuf)    .00000     7.6038         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                22.243     (Insuf)    .00000     47.000     .00000    
+rec.TerminalBLength.NumberBusy              787.95     (Insuf)    .00000     987.73     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .78795     (Insuf)    .00000     .98774     .00000    
+rec.CraneB.NumberBusy                       4.9318     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98638     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.7426     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .93567     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .15044     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .15044     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              605.64     (Insuf)    .00000     799.19     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .75706     (Insuf)    .00000     .99900     .00000    
+Free Len.A.Queue.NumberInQueue              .29963     (Insuf)    .00000     4.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.2295     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .03788     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00738     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         17.007     (Insuf)    .00000     39.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .49450     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 109.52    
+Unloading B Accum Wait Time                 272.32    
+Commuting to Terminal Accum VA Time         33.319    
+Commuting to Terminal Accum Wait Time       1.6342    
+Unloading A Accum VA Time                   394.67    
+Unloading A Number In                       63.000    
+Unloading B Number In                       37.000    
+Unloading A Number Out                      63.000    
+Unloading B Accum VA Time                   273.62    
+Unloading B Number Out                      37.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            11553.    
+rec.TerminalBLength.ScheduledUtilization    .78795    
+rec.CraneB.NumberSeized                     41.000    
+rec.CraneB.ScheduledUtilization             .98638    
+rec.CraneA.NumberSeized                     66.000    
+rec.CraneA.ScheduledUtilization             .93567    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .15044    
+rec.TerminalALength.NumberSeized            16098.    
+rec.TerminalALength.ScheduledUtilization    .75706    
+System.NumberOut                            100.00    
+
+Beginning replication 4 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 4 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 290.42859 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .32624     (Insuf)    .15371     .46933        100    
+tal.TimeSpentInHarbor                       51.036     (Insuf)    .00000     153.43        100    
+tal.TimeSpentInSystem                       64.939     (Insuf)    4.8889     184.53        100    
+Unloading A.WaitTimePerEntity               3.0919     (Insuf)    .00000     10.673         61    
+Unloading B.WaitTimePerEntity               11.341     (Insuf)    .00000     22.183         39    
+Commuting to Terminal.WaitTimePerEntity     .01153     (Insuf)    .00000     .41802        100    
+Commuting to Terminal.TotalTimePerEntity    .33777     (Insuf)    .15371     .77229        100    
+Unloading A.TotalTimePerEntity              9.7016     (Insuf)    2.6832     18.080         61    
+Unloading B.TotalTimePerEntity              19.607     (Insuf)    6.4160     32.271         39    
+tal.TimeSpentInTerminal                     13.565     (Insuf)    2.6832     32.271        100    
+Unloading A.VATimePerEntity                 6.6097     (Insuf)    2.1335     11.325         61    
+Unloading B.VATimePerEntity                 8.2659     (Insuf)    4.4942     12.161         39    
+ent.Ship.VATime                             7.5818     (Insuf)    2.4841     12.491        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           57.357     (Insuf)    .00000     175.61        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          64.939     (Insuf)    4.8889     184.53        100    
+Free Len.A.Queue.WaitingTime                2.3808     (Insuf)    .00000     6.4611         21    
+Unloading B.Queue.WaitingTime               11.341     (Insuf)    .00000     22.183         39    
+Liner Terminal A Siezing.Queue.WaitingTime  .35911     (Insuf)    .00000     5.4078         21    
+Commuting to Terminal.Queue.WaitingTime     .01153     (Insuf)    .00000     .41802        100    
+Free Len.A or B.Queue.WaitingTime           63.875     (Insuf)    .00000     153.43         79    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         40    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         39    
+Unloading A.Queue.WaitingTime               3.0919     (Insuf)    .00000     10.673         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                22.359     (Insuf)    .00000     50.000     .00000    
+rec.TerminalBLength.NumberBusy              832.79     (Insuf)    .00000     986.94     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .83279     (Insuf)    .00000     .98694     .00000    
+rec.CraneB.NumberBusy                       4.9370     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98740     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8737     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .96844     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .11233     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .11233     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              604.77     (Insuf)    .00000     783.14     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .75597     (Insuf)    .00000     .97893     .00000    
+Free Len.A.Queue.NumberInQueue              .17215     (Insuf)    .00000     3.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.5230     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .02597     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00397     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         17.374     (Insuf)    .00000     45.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .64942     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 188.60    
+Unloading B Accum Wait Time                 442.32    
+Commuting to Terminal Accum VA Time         32.624    
+Commuting to Terminal Accum Wait Time       1.1526    
+Unloading A Accum VA Time                   403.19    
+Unloading A Number In                       61.000    
+Unloading B Number In                       39.000    
+Unloading A Number Out                      61.000    
+Unloading B Accum VA Time                   322.37    
+Unloading B Number Out                      39.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            12105.    
+rec.TerminalBLength.ScheduledUtilization    .83279    
+rec.CraneB.NumberSeized                     43.000    
+rec.CraneB.ScheduledUtilization             .98740    
+rec.CraneA.NumberSeized                     64.000    
+rec.CraneA.ScheduledUtilization             .96844    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .11233    
+rec.TerminalALength.NumberSeized            16648.    
+rec.TerminalALength.ScheduledUtilization    .75597    
+System.NumberOut                            100.00    
+
+Beginning replication 5 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 5 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 238.35015 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .31956     (Insuf)    .15345     .52906        100    
+tal.TimeSpentInHarbor                       45.226     (Insuf)    .00000     120.07        100    
+tal.TimeSpentInSystem                       57.340     (Insuf)    4.1488     140.21        100    
+Unloading A.WaitTimePerEntity               2.3250     (Insuf)    .00000     15.813         64    
+Unloading B.WaitTimePerEntity               10.148     (Insuf)    .00000     18.882         36    
+Commuting to Terminal.WaitTimePerEntity     .02443     (Insuf)    .00000     .36829        100    
+Commuting to Terminal.TotalTimePerEntity    .34400     (Insuf)    .15345     .67336        100    
+Unloading A.TotalTimePerEntity              8.6144     (Insuf)    3.2199     21.120         64    
+Unloading B.TotalTimePerEntity              17.379     (Insuf)    5.4762     26.942         36    
+tal.TimeSpentInTerminal                     11.770     (Insuf)    3.2199     26.942        100    
+Unloading A.VATimePerEntity                 6.2894     (Insuf)    2.3689     12.543         64    
+Unloading B.VATimePerEntity                 7.2315     (Insuf)    4.3169     12.411         36    
+ent.Ship.VATime                             6.9481     (Insuf)    2.7912     12.883        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           50.392     (Insuf)    .00000     131.33        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          57.340     (Insuf)    4.1488     140.21        100    
+Free Len.A.Queue.WaitingTime                1.8094     (Insuf)    .00000     6.1446         28    
+Unloading B.Queue.WaitingTime               10.148     (Insuf)    .00000     18.882         36    
+Liner Terminal A Siezing.Queue.WaitingTime  .39383     (Insuf)    .00000     4.0014         28    
+Commuting to Terminal.Queue.WaitingTime     .02443     (Insuf)    .00000     .36829        100    
+Free Len.A or B.Queue.WaitingTime           61.958     (Insuf)    .00000     120.07         72    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         36    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         36    
+Unloading A.Queue.WaitingTime               2.3250     (Insuf)    .00000     15.813         64    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                24.057     (Insuf)    .00000     49.000     .00000    
+rec.TerminalBLength.NumberBusy              827.90     (Insuf)    .00000     990.04     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .82790     (Insuf)    .00000     .99004     .00000    
+rec.CraneB.NumberBusy                       4.9291     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98583     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8729     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .96823     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .13407     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .13407     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              616.29     (Insuf)    .00000     798.41     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .77037     (Insuf)    .00000     .99802     .00000    
+Free Len.A.Queue.NumberInQueue              .21257     (Insuf)    .00000     4.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.5328     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .04627     (Insuf)    .00000     3.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .01025     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         18.716     (Insuf)    .00000     42.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .62431     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 148.80    
+Unloading B Accum Wait Time                 365.34    
+Commuting to Terminal Accum VA Time         31.956    
+Commuting to Terminal Accum Wait Time       2.4435    
+Unloading A Accum VA Time                   402.52    
+Unloading A Number In                       64.000    
+Unloading B Number In                       36.000    
+Unloading A Number Out                      64.000    
+Unloading B Accum VA Time                   260.33    
+Unloading B Number Out                      36.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            11133.    
+rec.TerminalBLength.ScheduledUtilization    .82790    
+rec.CraneB.NumberSeized                     40.000    
+rec.CraneB.ScheduledUtilization             .98583    
+rec.CraneA.NumberSeized                     67.000    
+rec.CraneA.ScheduledUtilization             .96823    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .13407    
+rec.TerminalALength.NumberSeized            16122.    
+rec.TerminalALength.ScheduledUtilization    .77037    
+System.NumberOut                            100.00    
+
+Beginning replication 6 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 6 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 337.94677 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33643     (Insuf)    .17804     .52501        100    
+tal.TimeSpentInHarbor                       96.286     (Insuf)    .00000     227.28        100    
+tal.TimeSpentInSystem                       112.85     (Insuf)    5.3649     249.99        100    
+Unloading A.WaitTimePerEntity               7.9568     (Insuf)    .00000     18.297         51    
+Unloading B.WaitTimePerEntity               10.379     (Insuf)    .00000     21.526         49    
+Commuting to Terminal.WaitTimePerEntity     .01321     (Insuf)    .00000     .35718        100    
+Commuting to Terminal.TotalTimePerEntity    .34964     (Insuf)    .17804     .79147        100    
+Unloading A.TotalTimePerEntity              14.635     (Insuf)    3.6495     24.706         51    
+Unloading B.TotalTimePerEntity              17.876     (Insuf)    6.3065     27.103         49    
+tal.TimeSpentInTerminal                     16.223     (Insuf)    3.6495     27.103        100    
+Unloading A.VATimePerEntity                 6.6787     (Insuf)    2.5957     11.939         51    
+Unloading B.VATimePerEntity                 7.4967     (Insuf)    4.0340     11.336         49    
+ent.Ship.VATime                             7.4159     (Insuf)    3.0076     12.265        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           105.44     (Insuf)    .00000     243.93        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          112.85     (Insuf)    5.3649     249.99        100    
+Free Len.A.Queue.WaitingTime                2.4585     (Insuf)    .00000     9.0571         15    
+Unloading B.Queue.WaitingTime               10.379     (Insuf)    .00000     21.526         49    
+Liner Terminal A Siezing.Queue.WaitingTime  .77212     (Insuf)    .00000     7.3162         15    
+Commuting to Terminal.Queue.WaitingTime     .01321     (Insuf)    .00000     .35718        100    
+Free Len.A or B.Queue.WaitingTime           112.70     (Insuf)    .00000     227.28         85    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         36    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         49    
+Unloading A.Queue.WaitingTime               7.9568     (Insuf)    .00000     18.297         51    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                33.395     (Insuf)    .00000     67.000     .00000    
+rec.TerminalBLength.NumberBusy              826.99     (Insuf)    .00000     998.80     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .82699     (Insuf)    .00000     .99880     .00000    
+rec.CraneB.NumberBusy                       4.9622     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .99245     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.9076     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .97691     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .09955     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .09955     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              600.90     (Insuf)    .00000     760.80     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .75113     (Insuf)    .00000     .95101     .00000    
+Free Len.A.Queue.NumberInQueue              .10912     (Insuf)    .00000     2.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.5049     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .03427     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00391     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         28.348     (Insuf)    .00000     61.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             1.2007     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 405.80    
+Unloading B Accum Wait Time                 508.60    
+Commuting to Terminal Accum VA Time         33.642    
+Commuting to Terminal Accum Wait Time       1.3207    
+Unloading A Accum VA Time                   340.61    
+Unloading A Number In                       51.000    
+Unloading B Number In                       49.000    
+Unloading A Number Out                      51.000    
+Unloading B Accum VA Time                   367.33    
+Unloading B Number Out                      49.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            15381.    
+rec.TerminalBLength.ScheduledUtilization    .82699    
+rec.CraneB.NumberSeized                     53.000    
+rec.CraneB.ScheduledUtilization             .99245    
+rec.CraneA.NumberSeized                     54.000    
+rec.CraneA.ScheduledUtilization             .97691    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .09955    
+rec.TerminalALength.NumberSeized            13515.    
+rec.TerminalALength.ScheduledUtilization    .75113    
+System.NumberOut                            100.00    
+
+Beginning replication 7 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 7 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 251.44561 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33853     (Insuf)    .15947     .51486        100    
+tal.TimeSpentInHarbor                       56.617     (Insuf)    .00000     130.61        100    
+tal.TimeSpentInSystem                       68.389     (Insuf)    3.7613     151.52        100    
+Unloading A.WaitTimePerEntity               .73748     (Insuf)    .00000     5.2305         67    
+Unloading B.WaitTimePerEntity               11.178     (Insuf)    .00000     19.824         33    
+Commuting to Terminal.WaitTimePerEntity     .00407     (Insuf)    .00000     .40702        100    
+Commuting to Terminal.TotalTimePerEntity    .34260     (Insuf)    .15947     .81257        100    
+Unloading A.TotalTimePerEntity              7.4208     (Insuf)    3.1269     13.747         67    
+Unloading B.TotalTimePerEntity              19.567     (Insuf)    5.6022     29.187         33    
+tal.TimeSpentInTerminal                     11.429     (Insuf)    3.1269     29.187        100    
+Unloading A.VATimePerEntity                 6.6833     (Insuf)    2.5875     11.233         67    
+Unloading B.VATimePerEntity                 8.3894     (Insuf)    4.5469     11.806         33    
+ent.Ship.VATime                             7.5849     (Insuf)    3.0149     12.235        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           60.804     (Insuf)    .00000     142.22        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          68.389     (Insuf)    3.7613     151.52        100    
+Free Len.A.Queue.WaitingTime                2.4645     (Insuf)    .00000     9.0115         16    
+Unloading B.Queue.WaitingTime               11.178     (Insuf)    .00000     19.824         33    
+Liner Terminal A Siezing.Queue.WaitingTime  .47949     (Insuf)    .00000     4.4887         16    
+Commuting to Terminal.Queue.WaitingTime     .00407     (Insuf)    .00000     .40702        100    
+Free Len.A or B.Queue.WaitingTime           66.840     (Insuf)    .00000     130.61         84    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         51    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         33    
+Unloading A.Queue.WaitingTime               .73748     (Insuf)    .00000     5.2305         67    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                27.198     (Insuf)    .00000     55.000     .00000    
+rec.TerminalBLength.NumberBusy              800.44     (Insuf)    .00000     996.07     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .80045     (Insuf)    .00000     .99607     .00000    
+rec.CraneB.NumberBusy                       4.9419     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98839     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.7392     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .93480     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .13463     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .13463     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              606.25     (Insuf)    .00000     797.29     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .75782     (Insuf)    .00000     .99662     .00000    
+Free Len.A.Queue.NumberInQueue              .15682     (Insuf)    .00000     3.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.4670     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .03051     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00162     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         22.329     (Insuf)    .00000     50.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .19651     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 49.411    
+Unloading B Accum Wait Time                 368.87    
+Commuting to Terminal Accum VA Time         33.853    
+Commuting to Terminal Accum Wait Time       .40702    
+Unloading A Accum VA Time                   447.78    
+Unloading A Number In                       67.000    
+Unloading B Number In                       33.000    
+Unloading A Number Out                      67.000    
+Unloading B Accum VA Time                   276.85    
+Unloading B Number Out                      33.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            10247.    
+rec.TerminalBLength.ScheduledUtilization    .80045    
+rec.CraneB.NumberSeized                     37.000    
+rec.CraneB.ScheduledUtilization             .98839    
+rec.CraneA.NumberSeized                     69.000    
+rec.CraneA.ScheduledUtilization             .93480    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .13463    
+rec.TerminalALength.NumberSeized            19317.    
+rec.TerminalALength.ScheduledUtilization    .75782    
+System.NumberOut                            100.00    
+
+Beginning replication 8 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 8 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 290.5071 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .32770     (Insuf)    .17817     .49004        100    
+tal.TimeSpentInHarbor                       59.756     (Insuf)    .00000     178.63        100    
+tal.TimeSpentInSystem                       73.521     (Insuf)    4.1609     202.22        100    
+Unloading A.WaitTimePerEntity               4.5239     (Insuf)    .00000     11.345         57    
+Unloading B.WaitTimePerEntity               8.8155     (Insuf)    .00000     19.285         43    
+Commuting to Terminal.WaitTimePerEntity     .00829     (Insuf)    .00000     .32374        100    
+Commuting to Terminal.TotalTimePerEntity    .33599     (Insuf)    .18397     .63217        100    
+Unloading A.TotalTimePerEntity              11.039     (Insuf)    3.7871     20.335         57    
+Unloading B.TotalTimePerEntity              16.596     (Insuf)    4.9795     28.756         43    
+tal.TimeSpentInTerminal                     13.428     (Insuf)    3.7871     28.756        100    
+Unloading A.VATimePerEntity                 6.5152     (Insuf)    2.2936     11.727         57    
+Unloading B.VATimePerEntity                 7.7810     (Insuf)    4.4267     13.061         43    
+ent.Ship.VATime                             7.3872     (Insuf)    2.7412     13.351        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           66.133     (Insuf)    .00000     192.41        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          73.521     (Insuf)    4.1609     202.22        100    
+Free Len.A.Queue.WaitingTime                2.8107     (Insuf)    .00000     6.8206         21    
+Unloading B.Queue.WaitingTime               8.8155     (Insuf)    .00000     19.285         43    
+Liner Terminal A Siezing.Queue.WaitingTime  .15323     (Insuf)    .00000     3.2178         21    
+Commuting to Terminal.Queue.WaitingTime     .00829     (Insuf)    .00000     .32374        100    
+Free Len.A or B.Queue.WaitingTime           74.852     (Insuf)    .00000     178.63         79    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         36    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         43    
+Unloading A.Queue.WaitingTime               4.5239     (Insuf)    .00000     11.345         57    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                25.307     (Insuf)    .00000     55.000     .00000    
+rec.TerminalBLength.NumberBusy              795.35     (Insuf)    .00000     994.17     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .79535     (Insuf)    .00000     .99417     .00000    
+rec.CraneB.NumberBusy                       4.8536     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .97072     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.9205     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .98014     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .11280     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .11280     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              632.93     (Insuf)    .00000     793.65     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .79117     (Insuf)    .00000     .99207     .00000    
+Free Len.A.Queue.NumberInQueue              .20318     (Insuf)    .00000     4.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.3048     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .01108     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00286     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         20.355     (Insuf)    .00000     48.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .88764     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 257.86    
+Unloading B Accum Wait Time                 379.06    
+Commuting to Terminal Accum VA Time         32.769    
+Commuting to Terminal Accum Wait Time       .82942    
+Unloading A Accum VA Time                   371.37    
+Unloading A Number In                       57.000    
+Unloading B Number In                       43.000    
+Unloading A Number Out                      57.000    
+Unloading B Accum VA Time                   334.58    
+Unloading B Number Out                      43.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            13703.    
+rec.TerminalBLength.ScheduledUtilization    .79535    
+rec.CraneB.NumberSeized                     47.000    
+rec.CraneB.ScheduledUtilization             .97072    
+rec.CraneA.NumberSeized                     60.000    
+rec.CraneA.ScheduledUtilization             .98014    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .11280    
+rec.TerminalALength.NumberSeized            15356.    
+rec.TerminalALength.ScheduledUtilization    .79117    
+System.NumberOut                            100.00    
+
+Beginning replication 9 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 9 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 187.04179 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33381     (Insuf)    .18705     .45012        100    
+tal.TimeSpentInHarbor                       42.463     (Insuf)    .00000     100.05        100    
+tal.TimeSpentInSystem                       51.948     (Insuf)    4.6545     107.86        100    
+Unloading A.WaitTimePerEntity               1.1679     (Insuf)    .00000     5.3547         55    
+Unloading B.WaitTimePerEntity               2.9026     (Insuf)    .00000     8.4320         45    
+Commuting to Terminal.WaitTimePerEntity     .02791     (Insuf)    .00000     .44546        100    
+Commuting to Terminal.TotalTimePerEntity    .36172     (Insuf)    .18705     .73973        100    
+Unloading A.TotalTimePerEntity              7.6432     (Insuf)    3.3600     13.965         55    
+Unloading B.TotalTimePerEntity              10.932     (Insuf)    4.6889     17.370         45    
+tal.TimeSpentInTerminal                     9.1233     (Insuf)    3.3600     17.370        100    
+Unloading A.VATimePerEntity                 6.4752     (Insuf)    2.9061     11.412         55    
+Unloading B.VATimePerEntity                 8.0297     (Insuf)    4.6889     11.532         45    
+ent.Ship.VATime                             7.5085     (Insuf)    3.1305     11.887        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           44.439     (Insuf)    .00000     100.05        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          51.948     (Insuf)    4.6545     107.86        100    
+Free Len.A.Queue.WaitingTime                1.4923     (Insuf)    .00000     4.5030         21    
+Unloading B.Queue.WaitingTime               2.9026     (Insuf)    .00000     8.4320         45    
+Liner Terminal A Siezing.Queue.WaitingTime  .74792     (Insuf)    .00000     7.4370         21    
+Commuting to Terminal.Queue.WaitingTime     .02791     (Insuf)    .00000     .44546        100    
+Free Len.A or B.Queue.WaitingTime           53.155     (Insuf)    .00000     100.05         79    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         34    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         45    
+Unloading A.Queue.WaitingTime               1.1679     (Insuf)    .00000     5.3547         55    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                27.773     (Insuf)    .00000     57.000     .00000    
+rec.TerminalBLength.NumberBusy              839.94     (Insuf)    .00000     999.77     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .83994     (Insuf)    .00000     .99977     .00000    
+rec.CraneB.NumberBusy                       4.9147     (Insuf)    .00000     5.0000     3.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98295     (Insuf)    .00000     1.0000     .60000    
+rec.CraneA.NumberBusy                       3.8752     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .96881     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .17847     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .17847     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              627.17     (Insuf)    .00000     798.17     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .78397     (Insuf)    .00000     .99772     .00000    
+Free Len.A.Queue.NumberInQueue              .16756     (Insuf)    .00000     3.0000     .00000    
+Unloading B.Queue.NumberInQueue             .69833     (Insuf)    .00000     1.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .08397     (Insuf)    .00000     2.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .01492     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         22.450     (Insuf)    .00000     48.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .34345     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 64.238    
+Unloading B Accum Wait Time                 130.61    
+Commuting to Terminal Accum VA Time         33.380    
+Commuting to Terminal Accum Wait Time       2.7914    
+Unloading A Accum VA Time                   356.13    
+Unloading A Number In                       55.000    
+Unloading B Number In                       45.000    
+Unloading A Number Out                      55.000    
+Unloading B Accum VA Time                   361.33    
+Unloading B Number Out                      45.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14017.    
+rec.TerminalBLength.ScheduledUtilization    .83994    
+rec.CraneB.NumberSeized                     48.000    
+rec.CraneB.ScheduledUtilization             .98295    
+rec.CraneA.NumberSeized                     57.000    
+rec.CraneA.ScheduledUtilization             .96881    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .17847    
+rec.TerminalALength.NumberSeized            14252.    
+rec.TerminalALength.ScheduledUtilization    .78397    
+System.NumberOut                            100.00    
+
+Beginning replication 10 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 10 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 330.96822 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33078     (Insuf)    .13297     .51277        100    
+tal.TimeSpentInHarbor                       91.320     (Insuf)    .00000     225.49        100    
+tal.TimeSpentInSystem                       107.31     (Insuf)    3.6162     245.38        100    
+Unloading A.WaitTimePerEntity               7.5486     (Insuf)    .00000     15.421         53    
+Unloading B.WaitTimePerEntity               10.478     (Insuf)    .00000     19.881         47    
+Commuting to Terminal.WaitTimePerEntity     .01436     (Insuf)    .00000     .41292        100    
+Commuting to Terminal.TotalTimePerEntity    .34514     (Insuf)    .19708     .71608        100    
+Unloading A.TotalTimePerEntity              13.633     (Insuf)    3.3171     20.180         53    
+Unloading B.TotalTimePerEntity              17.919     (Insuf)    4.1703     28.304         47    
+tal.TimeSpentInTerminal                     15.647     (Insuf)    3.3171     28.304        100    
+Unloading A.VATimePerEntity                 6.0845     (Insuf)    2.1962     10.715         53    
+Unloading B.VATimePerEntity                 7.4404     (Insuf)    4.1703     11.548         47    
+ent.Ship.VATime                             7.0525     (Insuf)    2.3881     12.061        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           100.26     (Insuf)    .00000     238.46        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          107.31     (Insuf)    3.6162     245.38        100    
+Free Len.A.Queue.WaitingTime                4.0021     (Insuf)    .00000     14.234         19    
+Unloading B.Queue.WaitingTime               10.478     (Insuf)    .00000     19.881         47    
+Liner Terminal A Siezing.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000         19    
+Commuting to Terminal.Queue.WaitingTime     .01436     (Insuf)    .00000     .41292        100    
+Free Len.A or B.Queue.WaitingTime           111.80     (Insuf)    .00000     225.49         81    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         34    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         47    
+Unloading A.Queue.WaitingTime               7.5486     (Insuf)    .00000     15.421         53    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                32.424     (Insuf)    .00000     65.000     .00000    
+rec.TerminalBLength.NumberBusy              797.50     (Insuf)    .00000     996.17     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .79751     (Insuf)    .00000     .99618     .00000    
+rec.CraneB.NumberBusy                       4.8333     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .96668     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8907     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .97268     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .09994     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .09994     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              617.81     (Insuf)    .00000     796.90     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .77227     (Insuf)    .00000     .99613     .00000    
+Free Len.A.Queue.NumberInQueue              .22975     (Insuf)    .00000     3.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.4880     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00434     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         27.362     (Insuf)    .00000     58.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             1.2088     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 400.08    
+Unloading B Accum Wait Time                 492.49    
+Commuting to Terminal Accum VA Time         33.078    
+Commuting to Terminal Accum Wait Time       1.4362    
+Unloading A Accum VA Time                   322.47    
+Unloading A Number In                       53.000    
+Unloading B Number In                       47.000    
+Unloading A Number Out                      53.000    
+Unloading B Accum VA Time                   349.69    
+Unloading B Number Out                      47.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14576.    
+rec.TerminalBLength.ScheduledUtilization    .79751    
+rec.CraneB.NumberSeized                     51.000    
+rec.CraneB.ScheduledUtilization             .96668    
+rec.CraneA.NumberSeized                     57.000    
+rec.CraneA.ScheduledUtilization             .97268    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .09994    
+rec.TerminalALength.NumberSeized            14390.    
+rec.TerminalALength.ScheduledUtilization    .77227    
+System.NumberOut                            100.00    
+
+Beginning replication 11 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 11 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 224.47471 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .34540     (Insuf)    .18754     .55559        100    
+tal.TimeSpentInHarbor                       41.334     (Insuf)    .00000     111.30        100    
+tal.TimeSpentInSystem                       52.520     (Insuf)    4.4739     124.93        100    
+Unloading A.WaitTimePerEntity               1.6117     (Insuf)    .00000     6.4977         65    
+Unloading B.WaitTimePerEntity               8.6731     (Insuf)    .00000     18.100         35    
+Commuting to Terminal.WaitTimePerEntity     .02651     (Insuf)    .00000     .44973        100    
+Commuting to Terminal.TotalTimePerEntity    .37192     (Insuf)    .18754     .87584        100    
+Unloading A.TotalTimePerEntity              7.9982     (Insuf)    2.8475     15.604         65    
+Unloading B.TotalTimePerEntity              16.042     (Insuf)    4.9171     24.514         35    
+tal.TimeSpentInTerminal                     10.813     (Insuf)    2.8475     24.514        100    
+Unloading A.VATimePerEntity                 6.3865     (Insuf)    2.2329     12.460         65    
+Unloading B.VATimePerEntity                 7.3691     (Insuf)    4.2550     11.090         35    
+ent.Ship.VATime                             7.0758     (Insuf)    2.4633     12.844        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           45.444     (Insuf)    .00000     116.20        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          52.520     (Insuf)    4.4739     124.93        100    
+Free Len.A.Queue.WaitingTime                2.9210     (Insuf)    .00000     8.4668         28    
+Unloading B.Queue.WaitingTime               8.6731     (Insuf)    .00000     18.100         35    
+Liner Terminal A Siezing.Queue.WaitingTime  .11639     (Insuf)    .00000     3.2589         28    
+Commuting to Terminal.Queue.WaitingTime     .02651     (Insuf)    .00000     .44973        100    
+Free Len.A or B.Queue.WaitingTime           56.228     (Insuf)    .00000     111.30         72    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         37    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         35    
+Unloading A.Queue.WaitingTime               1.6117     (Insuf)    .00000     6.4977         65    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                23.396     (Insuf)    .00000     49.000     .00000    
+rec.TerminalBLength.NumberBusy              788.15     (Insuf)    .00000     991.98     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .78816     (Insuf)    .00000     .99198     .00000    
+rec.CraneB.NumberBusy                       4.9321     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98642     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8400     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .96000     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .15387     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .15387     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              617.74     (Insuf)    .00000     793.37     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .77218     (Insuf)    .00000     .99172     .00000    
+Free Len.A.Queue.NumberInQueue              .36436     (Insuf)    .00000     4.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.3523     (Insuf)    .00000     3.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .01452     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .01181     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         18.035     (Insuf)    .00000     40.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .46671     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 104.76    
+Unloading B Accum Wait Time                 303.56    
+Commuting to Terminal Accum VA Time         34.540    
+Commuting to Terminal Accum Wait Time       2.6514    
+Unloading A Accum VA Time                   415.12    
+Unloading A Number In                       65.000    
+Unloading B Number In                       35.000    
+Unloading A Number Out                      65.000    
+Unloading B Accum VA Time                   257.92    
+Unloading B Number Out                      35.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            10981.    
+rec.TerminalBLength.ScheduledUtilization    .78816    
+rec.CraneB.NumberSeized                     39.000    
+rec.CraneB.ScheduledUtilization             .98642    
+rec.CraneA.NumberSeized                     67.000    
+rec.CraneA.ScheduledUtilization             .96000    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .15387    
+rec.TerminalALength.NumberSeized            16471.    
+rec.TerminalALength.ScheduledUtilization    .77218    
+System.NumberOut                            100.00    
+
+Beginning replication 12 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 12 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 187.97521 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .34315     (Insuf)    .17263     .51927        100    
+tal.TimeSpentInHarbor                       34.526     (Insuf)    .00000     79.081        100    
+tal.TimeSpentInSystem                       43.683     (Insuf)    4.3895     89.238        100    
+Unloading A.WaitTimePerEntity               1.0913     (Insuf)    .00000     6.3398         54    
+Unloading B.WaitTimePerEntity               2.5723     (Insuf)    .00000     6.7409         46    
+Commuting to Terminal.WaitTimePerEntity     .01086     (Insuf)    .00000     .41499        100    
+Commuting to Terminal.TotalTimePerEntity    .35400     (Insuf)    .17263     .77685        100    
+Unloading A.TotalTimePerEntity              7.5142     (Insuf)    3.2753     18.755         54    
+Unloading B.TotalTimePerEntity              10.316     (Insuf)    4.7977     18.574         46    
+tal.TimeSpentInTerminal                     8.8032     (Insuf)    3.2753     18.755        100    
+Unloading A.VATimePerEntity                 6.4229     (Insuf)    2.4023     12.415         54    
+Unloading B.VATimePerEntity                 7.7441     (Insuf)    4.1641     12.926         46    
+ent.Ship.VATime                             7.3738     (Insuf)    2.6846     13.287        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           36.309     (Insuf)    .00000     82.202        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          43.683     (Insuf)    4.3895     89.238        100    
+Free Len.A.Queue.WaitingTime                2.9451     (Insuf)    .00000     10.407         19    
+Unloading B.Queue.WaitingTime               2.5723     (Insuf)    .00000     6.7409         46    
+Liner Terminal A Siezing.Queue.WaitingTime  .25973     (Insuf)    .00000     3.6915         19    
+Commuting to Terminal.Queue.WaitingTime     .01086     (Insuf)    .00000     .41499        100    
+Free Len.A or B.Queue.WaitingTime           41.873     (Insuf)    .00000     79.081         81    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         35    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         46    
+Unloading A.Queue.WaitingTime               1.0913     (Insuf)    .00000     6.3398         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                23.239     (Insuf)    .00000     46.000     .00000    
+rec.TerminalBLength.NumberBusy              804.81     (Insuf)    .00000     994.04     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .80481     (Insuf)    .00000     .99405     .00000    
+rec.CraneB.NumberBusy                       4.8848     (Insuf)    .00000     5.0000     3.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .97697     (Insuf)    .00000     1.0000     .60000    
+rec.CraneA.NumberBusy                       3.8753     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .96884     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .18255     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .18255     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              622.31     (Insuf)    .00000     783.83     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .77790     (Insuf)    .00000     .97980     .00000    
+Free Len.A.Queue.NumberInQueue              .29769     (Insuf)    .00000     5.0000     .00000    
+Unloading B.Queue.NumberInQueue             .62948     (Insuf)    .00000     1.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .02625     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00578     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         18.043     (Insuf)    .00000     41.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .31350     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 58.930    
+Unloading B Accum Wait Time                 118.32    
+Commuting to Terminal Accum VA Time         34.314    
+Commuting to Terminal Accum Wait Time       1.0858    
+Unloading A Accum VA Time                   346.83    
+Unloading A Number In                       54.000    
+Unloading B Number In                       46.000    
+Unloading A Number Out                      54.000    
+Unloading B Accum VA Time                   356.22    
+Unloading B Number Out                      46.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14179.    
+rec.TerminalBLength.ScheduledUtilization    .80481    
+rec.CraneB.NumberSeized                     49.000    
+rec.CraneB.ScheduledUtilization             .97697    
+rec.CraneA.NumberSeized                     57.000    
+rec.CraneA.ScheduledUtilization             .96884    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .18255    
+rec.TerminalALength.NumberSeized            14363.    
+rec.TerminalALength.ScheduledUtilization    .77790    
+System.NumberOut                            100.00    
+
+Beginning replication 13 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 13 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 311.46482 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33465     (Insuf)    .17440     .45543        100    
+tal.TimeSpentInHarbor                       68.541     (Insuf)    .00000     178.14        100    
+tal.TimeSpentInSystem                       82.759     (Insuf)    4.0367     206.53        100    
+Unloading A.WaitTimePerEntity               6.8310     (Insuf)    .00000     14.201         55    
+Unloading B.WaitTimePerEntity               7.7114     (Insuf)    .00000     16.699         45    
+Commuting to Terminal.WaitTimePerEntity     .02227     (Insuf)    .00000     .42939        100    
+Commuting to Terminal.TotalTimePerEntity    .35692     (Insuf)    .17440     .81870        100    
+Unloading A.TotalTimePerEntity              12.851     (Insuf)    3.7726     20.770         55    
+Unloading B.TotalTimePerEntity              15.095     (Insuf)    5.1305     28.367         45    
+tal.TimeSpentInTerminal                     13.861     (Insuf)    3.7726     28.367        100    
+Unloading A.VATimePerEntity                 6.0204     (Insuf)    2.3227     12.429         55    
+Unloading B.VATimePerEntity                 7.3838     (Insuf)    4.4677     12.046         45    
+ent.Ship.VATime                             6.9685     (Insuf)    2.5616     12.773        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           75.790     (Insuf)    .00000     194.13        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          82.759     (Insuf)    4.0367     206.53        100    
+Free Len.A.Queue.WaitingTime                5.9264     (Insuf)    .00000     19.932         23    
+Unloading B.Queue.WaitingTime               7.7114     (Insuf)    .00000     16.699         45    
+Liner Terminal A Siezing.Queue.WaitingTime  .03483     (Insuf)    .00000     .80107         23    
+Commuting to Terminal.Queue.WaitingTime     .02227     (Insuf)    .00000     .42939        100    
+Free Len.A or B.Queue.WaitingTime           87.233     (Insuf)    .00000     178.14         77    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         32    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         45    
+Unloading A.Queue.WaitingTime               6.8310     (Insuf)    .00000     14.201         55    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                26.570     (Insuf)    .00000     56.000     .00000    
+rec.TerminalBLength.NumberBusy              714.26     (Insuf)    .00000     997.37     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .71426     (Insuf)    .00000     .99738     .00000    
+rec.CraneB.NumberBusy                       4.8816     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .97633     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8975     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .97439     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .10744     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .10744     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              609.61     (Insuf)    .00000     781.29     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .76202     (Insuf)    .00000     .97662     .00000    
+Free Len.A.Queue.NumberInQueue              .43764     (Insuf)    .00000     5.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.1141     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .00257     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00715     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         21.565     (Insuf)    .00000     49.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             1.2062     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 375.70    
+Unloading B Accum Wait Time                 347.01    
+Commuting to Terminal Accum VA Time         33.465    
+Commuting to Terminal Accum Wait Time       2.2266    
+Unloading A Accum VA Time                   331.12    
+Unloading A Number In                       55.000    
+Unloading B Number In                       45.000    
+Unloading A Number Out                      55.000    
+Unloading B Accum VA Time                   332.27    
+Unloading B Number Out                      45.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14380.    
+rec.TerminalBLength.ScheduledUtilization    .71426    
+rec.CraneB.NumberSeized                     49.000    
+rec.CraneB.ScheduledUtilization             .97633    
+rec.CraneA.NumberSeized                     58.000    
+rec.CraneA.ScheduledUtilization             .97439    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .10744    
+rec.TerminalALength.NumberSeized            14364.    
+rec.TerminalALength.ScheduledUtilization    .76202    
+System.NumberOut                            100.00    
+
+Beginning replication 14 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 14 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 228.28158 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33176     (Insuf)    .20232     .53039        100    
+tal.TimeSpentInHarbor                       31.124     (Insuf)    .00000     93.394        100    
+tal.TimeSpentInSystem                       42.130     (Insuf)    4.3319     114.64        100    
+Unloading A.WaitTimePerEntity               1.8014     (Insuf)    .00000     10.573         55    
+Unloading B.WaitTimePerEntity               5.9266     (Insuf)    .00000     18.005         45    
+Commuting to Terminal.WaitTimePerEntity     .00554     (Insuf)    .00000     .29630        100    
+Commuting to Terminal.TotalTimePerEntity    .33730     (Insuf)    .20232     .56866        100    
+Unloading A.TotalTimePerEntity              8.5344     (Insuf)    3.3731     17.069         55    
+Unloading B.TotalTimePerEntity              13.277     (Insuf)    4.7329     26.122         45    
+tal.TimeSpentInTerminal                     10.668     (Insuf)    3.3731     26.122        100    
+Unloading A.VATimePerEntity                 6.7330     (Insuf)    2.3110     12.431         55    
+Unloading B.VATimePerEntity                 7.3505     (Insuf)    4.7329     12.145         45    
+ent.Ship.VATime                             7.3426     (Insuf)    2.5234     12.766        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           34.787     (Insuf)    .00000     106.78        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          42.130     (Insuf)    4.3319     114.64        100    
+Free Len.A.Queue.WaitingTime                1.2582     (Insuf)    .00000     6.7109         19    
+Unloading B.Queue.WaitingTime               5.9266     (Insuf)    .00000     18.005         45    
+Liner Terminal A Siezing.Queue.WaitingTime  .81374     (Insuf)    .00000     7.8851         19    
+Commuting to Terminal.Queue.WaitingTime     .00554     (Insuf)    .00000     .29630        100    
+Free Len.A or B.Queue.WaitingTime           37.938     (Insuf)    .00000     93.394         81    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         36    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         45    
+Unloading A.Queue.WaitingTime               1.8014     (Insuf)    .00000     10.573         55    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                18.455     (Insuf)    .00000     37.000     .00000    
+rec.TerminalBLength.NumberBusy              834.35     (Insuf)    .00000     993.32     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .83435     (Insuf)    .00000     .99332     .00000    
+rec.CraneB.NumberBusy                       4.9306     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98612     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8653     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .96633     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .14533     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .14533     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              593.27     (Insuf)    .00000     795.59     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .74159     (Insuf)    .00000     .99449     .00000    
+Free Len.A.Queue.NumberInQueue              .10472     (Insuf)    .00000     3.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.1682     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .06773     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00243     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         13.461     (Insuf)    .00000     32.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .43403     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 99.080    
+Unloading B Accum Wait Time                 266.69    
+Commuting to Terminal Accum VA Time         33.175    
+Commuting to Terminal Accum Wait Time       .55399    
+Unloading A Accum VA Time                   370.31    
+Unloading A Number In                       55.000    
+Unloading B Number In                       45.000    
+Unloading A Number Out                      55.000    
+Unloading B Accum VA Time                   330.77    
+Unloading B Number Out                      45.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14095.    
+rec.TerminalBLength.ScheduledUtilization    .83435    
+rec.CraneB.NumberSeized                     49.000    
+rec.CraneB.ScheduledUtilization             .98612    
+rec.CraneA.NumberSeized                     58.000    
+rec.CraneA.ScheduledUtilization             .96633    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .14533    
+rec.TerminalALength.NumberSeized            14534.    
+rec.TerminalALength.ScheduledUtilization    .74159    
+System.NumberOut                            100.00    
+
+Beginning replication 15 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 15 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 357.49152 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33332     (Insuf)    .14350     .55922        100    
+tal.TimeSpentInHarbor                       100.18     (Insuf)    .00000     245.57        100    
+tal.TimeSpentInSystem                       116.55     (Insuf)    2.4215     267.40        100    
+Unloading A.WaitTimePerEntity               8.3165     (Insuf)    .00000     18.360         54    
+Unloading B.WaitTimePerEntity               9.7944     (Insuf)    .00000     17.374         46    
+Commuting to Terminal.WaitTimePerEntity     .00323     (Insuf)    .00000     .32289        100    
+Commuting to Terminal.TotalTimePerEntity    .33654     (Insuf)    .14350     .63691        100    
+Unloading A.TotalTimePerEntity              14.866     (Insuf)    2.1978     25.874         54    
+Unloading B.TotalTimePerEntity              17.398     (Insuf)    5.2134     25.564         46    
+tal.TimeSpentInTerminal                     16.031     (Insuf)    2.1978     25.874        100    
+Unloading A.VATimePerEntity                 6.5502     (Insuf)    2.1978     12.560         54    
+Unloading B.VATimePerEntity                 7.6042     (Insuf)    4.9090     11.884         46    
+ent.Ship.VATime                             7.3684     (Insuf)    2.4215     12.875        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           109.18     (Insuf)    .00000     258.20        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          116.55     (Insuf)    2.4215     267.40        100    
+Free Len.A.Queue.WaitingTime                5.2780     (Insuf)    .00000     15.750         21    
+Unloading B.Queue.WaitingTime               9.7944     (Insuf)    .00000     17.374         46    
+Liner Terminal A Siezing.Queue.WaitingTime  .21397     (Insuf)    .00000     4.4933         21    
+Commuting to Terminal.Queue.WaitingTime     .00323     (Insuf)    .00000     .32289        100    
+Free Len.A or B.Queue.WaitingTime           125.36     (Insuf)    .00000     245.57         79    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         33    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         46    
+Unloading A.Queue.WaitingTime               8.3165     (Insuf)    .00000     18.360         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                32.603     (Insuf)    .00000     70.000     .00000    
+rec.TerminalBLength.NumberBusy              714.65     (Insuf)    .00000     992.56     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .71465     (Insuf)    .00000     .99256     .00000    
+rec.CraneB.NumberBusy                       4.6478     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .92957     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.9542     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .98857     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .09324     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .09324     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              622.60     (Insuf)    .00000     780.48     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .77825     (Insuf)    .00000     .97561     .00000    
+Free Len.A.Queue.NumberInQueue              .31004     (Insuf)    .00000     4.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.2602     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .01257     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue    9.0321E-4 (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         27.702     (Insuf)    .00000     63.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             1.2562     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 449.09    
+Unloading B Accum Wait Time                 450.54    
+Commuting to Terminal Accum VA Time         33.331    
+Commuting to Terminal Accum Wait Time       .32289    
+Unloading A Accum VA Time                   353.71    
+Unloading A Number In                       54.000    
+Unloading B Number In                       46.000    
+Unloading A Number Out                      54.000    
+Unloading B Accum VA Time                   349.79    
+Unloading B Number Out                      46.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            14425.    
+rec.TerminalBLength.ScheduledUtilization    .71465    
+rec.CraneB.NumberSeized                     50.000    
+rec.CraneB.ScheduledUtilization             .92957    
+rec.CraneA.NumberSeized                     57.000    
+rec.CraneA.ScheduledUtilization             .98857    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .09324    
+rec.TerminalALength.NumberSeized            14466.    
+rec.TerminalALength.ScheduledUtilization    .77825    
+System.NumberOut                            100.00    
+
+Beginning replication 16 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 16 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 294.76588 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .31849     (Insuf)    .16943     .47101        100    
+tal.TimeSpentInHarbor                       71.344     (Insuf)    .00000     179.74        100    
+tal.TimeSpentInSystem                       84.965     (Insuf)    3.8977     205.58        100    
+Unloading A.WaitTimePerEntity               2.4367     (Insuf)    .00000     14.791         61    
+Unloading B.WaitTimePerEntity               11.568     (Insuf)    .00000     20.002         39    
+Commuting to Terminal.WaitTimePerEntity     .00435     (Insuf)    .00000     .26593        100    
+Commuting to Terminal.TotalTimePerEntity    .32284     (Insuf)    .16943     .66188        100    
+Unloading A.TotalTimePerEntity              9.5263     (Insuf)    2.5226     22.813         61    
+Unloading B.TotalTimePerEntity              19.198     (Insuf)    4.7130     28.122         39    
+tal.TimeSpentInTerminal                     13.298     (Insuf)    2.5226     28.122        100    
+Unloading A.VATimePerEntity                 7.0896     (Insuf)    2.5226     11.464         61    
+Unloading B.VATimePerEntity                 7.6302     (Insuf)    4.7130     11.556         39    
+ent.Ship.VATime                             7.6189     (Insuf)    2.7698     11.754        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           77.347     (Insuf)    .00000     194.73        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          84.965     (Insuf)    3.8977     205.58        100    
+Free Len.A.Queue.WaitingTime                2.5680     (Insuf)    .00000     8.4023         15    
+Unloading B.Queue.WaitingTime               11.568     (Insuf)    .00000     20.002         39    
+Liner Terminal A Siezing.Queue.WaitingTime  .96693     (Insuf)    .00000     7.0828         15    
+Commuting to Terminal.Queue.WaitingTime     .00435     (Insuf)    .00000     .26593        100    
+Free Len.A or B.Queue.WaitingTime           83.311     (Insuf)    .00000     179.74         85    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         46    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         39    
+Unloading A.Queue.WaitingTime               2.4367     (Insuf)    .00000     14.791         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                28.824     (Insuf)    .00000     63.000     .00000    
+rec.TerminalBLength.NumberBusy              817.14     (Insuf)    .00000     996.98     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .81715     (Insuf)    .00000     .99699     .00000    
+rec.CraneB.NumberBusy                       4.9414     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98828     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8994     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .97487     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .10805     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .10805     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              621.49     (Insuf)    .00000     788.86     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .77687     (Insuf)    .00000     .98608     .00000    
+Free Len.A.Queue.NumberInQueue              .13068     (Insuf)    .00000     4.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.5306     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .04921     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00148     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         24.023     (Insuf)    .00000     57.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .50427     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 148.64    
+Unloading B Accum Wait Time                 451.16    
+Commuting to Terminal Accum VA Time         31.848    
+Commuting to Terminal Accum Wait Time       .43536    
+Unloading A Accum VA Time                   432.46    
+Unloading A Number In                       61.000    
+Unloading B Number In                       39.000    
+Unloading A Number Out                      61.000    
+Unloading B Accum VA Time                   297.57    
+Unloading B Number Out                      39.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            12439.    
+rec.TerminalBLength.ScheduledUtilization    .81715    
+rec.CraneB.NumberSeized                     43.000    
+rec.CraneB.ScheduledUtilization             .98828    
+rec.CraneA.NumberSeized                     64.000    
+rec.CraneA.ScheduledUtilization             .97487    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .10805    
+rec.TerminalALength.NumberSeized            18067.    
+rec.TerminalALength.ScheduledUtilization    .77687    
+System.NumberOut                            100.00    
+
+Beginning replication 17 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 17 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 303.00755 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33165     (Insuf)    .20154     .51848        100    
+tal.TimeSpentInHarbor                       58.420     (Insuf)    .00000     178.99        100    
+tal.TimeSpentInSystem                       72.479     (Insuf)    3.3428     200.51        100    
+Unloading A.WaitTimePerEntity               3.4467     (Insuf)    .00000     11.112         61    
+Unloading B.WaitTimePerEntity               11.880     (Insuf)    .00000     18.689         39    
+Commuting to Terminal.WaitTimePerEntity     .01187     (Insuf)    .00000     .38632        100    
+Commuting to Terminal.TotalTimePerEntity    .34351     (Insuf)    .20154     .72444        100    
+Unloading A.TotalTimePerEntity              9.8734     (Insuf)    2.7619     21.621         61    
+Unloading B.TotalTimePerEntity              19.724     (Insuf)    5.3873     27.176         39    
+tal.TimeSpentInTerminal                     13.715     (Insuf)    2.7619     27.176        100    
+Unloading A.VATimePerEntity                 6.4267     (Insuf)    2.0957     11.456         61    
+Unloading B.VATimePerEntity                 7.8438     (Insuf)    4.5043     13.102         39    
+ent.Ship.VATime                             7.3110     (Insuf)    2.3778     13.387        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           65.168     (Insuf)    .00000     190.67        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          72.479     (Insuf)    3.3428     200.51        100    
+Free Len.A.Queue.WaitingTime                1.4177     (Insuf)    .00000     5.9777         22    
+Unloading B.Queue.WaitingTime               11.880     (Insuf)    .00000     18.689         39    
+Liner Terminal A Siezing.Queue.WaitingTime  .83127     (Insuf)    .00000     6.7963         22    
+Commuting to Terminal.Queue.WaitingTime     .01187     (Insuf)    .00000     .38632        100    
+Free Len.A or B.Queue.WaitingTime           74.263     (Insuf)    .00000     178.99         78    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         39    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         39    
+Unloading A.Queue.WaitingTime               3.4467     (Insuf)    .00000     11.112         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                23.919     (Insuf)    .00000     52.000     .00000    
+rec.TerminalBLength.NumberBusy              820.40     (Insuf)    .00000     995.80     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .82040     (Insuf)    .00000     .99580     .00000    
+rec.CraneB.NumberBusy                       4.9489     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98978     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.9080     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .97702     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .10945     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .10945     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              614.01     (Insuf)    .00000     790.83     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .76752     (Insuf)    .00000     .98854     .00000    
+Free Len.A.Queue.NumberInQueue              .10294     (Insuf)    .00000     2.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.5291     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .06035     (Insuf)    .00000     2.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00392     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         19.116     (Insuf)    .00000     46.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .69387     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 210.24    
+Unloading B Accum Wait Time                 463.34    
+Commuting to Terminal Accum VA Time         33.164    
+Commuting to Terminal Accum Wait Time       1.1868    
+Unloading A Accum VA Time                   392.02    
+Unloading A Number In                       61.000    
+Unloading B Number In                       39.000    
+Unloading A Number Out                      61.000    
+Unloading B Accum VA Time                   305.90    
+Unloading B Number Out                      39.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            12523.    
+rec.TerminalBLength.ScheduledUtilization    .82040    
+rec.CraneB.NumberSeized                     43.000    
+rec.CraneB.ScheduledUtilization             .98978    
+rec.CraneA.NumberSeized                     64.000    
+rec.CraneA.ScheduledUtilization             .97702    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .10945    
+rec.TerminalALength.NumberSeized            16792.    
+rec.TerminalALength.ScheduledUtilization    .76752    
+System.NumberOut                            100.00    
+
+Beginning replication 18 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 18 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 221.2892 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .32621     (Insuf)    .10778     .47536        100    
+tal.TimeSpentInHarbor                       35.348     (Insuf)    .00000     97.865        100    
+tal.TimeSpentInSystem                       45.811     (Insuf)    4.7135     123.11        100    
+Unloading A.WaitTimePerEntity               1.1175     (Insuf)    .00000     5.2287         59    
+Unloading B.WaitTimePerEntity               6.3134     (Insuf)    .00000     19.904         41    
+Commuting to Terminal.WaitTimePerEntity     .01660     (Insuf)    .00000     .36164        100    
+Commuting to Terminal.TotalTimePerEntity    .34282     (Insuf)    .10778     .73514        100    
+Unloading A.TotalTimePerEntity              7.6048     (Insuf)    4.0039     13.426         59    
+Unloading B.TotalTimePerEntity              13.739     (Insuf)    4.7086     28.469         41    
+tal.TimeSpentInTerminal                     10.120     (Insuf)    4.0039     28.469        100    
+Unloading A.VATimePerEntity                 6.4872     (Insuf)    2.5611     11.264         59    
+Unloading B.VATimePerEntity                 7.4258     (Insuf)    4.5668     11.567         41    
+ent.Ship.VATime                             7.1983     (Insuf)    2.6688     11.920        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           38.612     (Insuf)    .00000     114.00        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          45.811     (Insuf)    4.7135     123.11        100    
+Free Len.A.Queue.WaitingTime                2.2461     (Insuf)    .00000     7.8018         18    
+Unloading B.Queue.WaitingTime               6.3134     (Insuf)    .00000     19.904         41    
+Liner Terminal A Siezing.Queue.WaitingTime  .63046     (Insuf)    .00000     4.4530         18    
+Commuting to Terminal.Queue.WaitingTime     .01660     (Insuf)    .00000     .36164        100    
+Free Len.A or B.Queue.WaitingTime           42.476     (Insuf)    .00000     97.865         82    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         41    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         41    
+Unloading A.Queue.WaitingTime               1.1175     (Insuf)    .00000     5.2287         59    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                20.701     (Insuf)    .00000     44.000     .00000    
+rec.TerminalBLength.NumberBusy              831.56     (Insuf)    .00000     996.36     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .83157     (Insuf)    .00000     .99636     .00000    
+rec.CraneB.NumberBusy                       4.9159     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .98318     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.6971     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .92428     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .14741     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .14741     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              584.72     (Insuf)    .00000     798.87     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .73090     (Insuf)    .00000     .99860     .00000    
+Free Len.A.Queue.NumberInQueue              .18271     (Insuf)    .00000     2.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.1697     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .05128     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00750     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         15.739     (Insuf)    .00000     40.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .29796     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 65.936    
+Unloading B Accum Wait Time                 258.85    
+Commuting to Terminal Accum VA Time         32.621    
+Commuting to Terminal Accum Wait Time       1.6604    
+Unloading A Accum VA Time                   382.75    
+Unloading A Number In                       59.000    
+Unloading B Number In                       41.000    
+Unloading A Number Out                      59.000    
+Unloading B Accum VA Time                   304.46    
+Unloading B Number Out                      41.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            13174.    
+rec.TerminalBLength.ScheduledUtilization    .83157    
+rec.CraneB.NumberSeized                     45.000    
+rec.CraneB.ScheduledUtilization             .98318    
+rec.CraneA.NumberSeized                     61.000    
+rec.CraneA.ScheduledUtilization             .92428    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .14741    
+rec.TerminalALength.NumberSeized            15765.    
+rec.TerminalALength.ScheduledUtilization    .73090    
+System.NumberOut                            100.00    
+
+Beginning replication 19 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 19 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 234.50331 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .33852     (Insuf)    .17909     .49220        100    
+tal.TimeSpentInHarbor                       48.439     (Insuf)    .00000     113.83        100    
+tal.TimeSpentInSystem                       59.565     (Insuf)    3.0218     133.87        100    
+Unloading A.WaitTimePerEntity               .93744     (Insuf)    .00000     5.2567         63    
+Unloading B.WaitTimePerEntity               8.8608     (Insuf)    .00000     15.931         37    
+Commuting to Terminal.WaitTimePerEntity     .00853     (Insuf)    .00000     .35329        100    
+Commuting to Terminal.TotalTimePerEntity    .34705     (Insuf)    .17909     .77281        100    
+Unloading A.TotalTimePerEntity              7.7076     (Insuf)    2.3885     13.683         63    
+Unloading B.TotalTimePerEntity              16.010     (Insuf)    7.4266     23.161         37    
+tal.TimeSpentInTerminal                     10.779     (Insuf)    2.3885     23.161        100    
+Unloading A.VATimePerEntity                 6.7702     (Insuf)    2.3885     11.282         63    
+Unloading B.VATimePerEntity                 7.1494     (Insuf)    4.7334     11.700         37    
+ent.Ship.VATime                             7.2490     (Insuf)    2.7877     11.879        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           52.316     (Insuf)    .00000     125.38        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          59.565     (Insuf)    3.0218     133.87        100    
+Free Len.A.Queue.WaitingTime                2.6022     (Insuf)    .00000     7.0329         18    
+Unloading B.Queue.WaitingTime               8.8608     (Insuf)    .00000     15.931         37    
+Liner Terminal A Siezing.Queue.WaitingTime  .63844     (Insuf)    .00000     5.9243         18    
+Commuting to Terminal.Queue.WaitingTime     .00853     (Insuf)    .00000     .35329        100    
+Free Len.A or B.Queue.WaitingTime           58.360     (Insuf)    .00000     113.83         82    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         45    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         37    
+Unloading A.Queue.WaitingTime               .93744     (Insuf)    .00000     5.2567         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                25.400     (Insuf)    .00000     51.000     .00000    
+rec.TerminalBLength.NumberBusy              816.47     (Insuf)    .00000     997.32     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .81648     (Insuf)    .00000     .99733     .00000    
+rec.CraneB.NumberBusy                       4.9543     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .99087     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.7952     (Insuf)    .00000     4.0000     2.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .94880     (Insuf)    .00000     1.0000     .50000    
+rec.Canal.NumberBusy                        .14435     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .14435     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              630.80     (Insuf)    .00000     793.45     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .78851     (Insuf)    .00000     .99182     .00000    
+Free Len.A.Queue.NumberInQueue              .19974     (Insuf)    .00000     3.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.3980     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .04901     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00364     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         20.407     (Insuf)    .00000     45.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .25185     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 59.058    
+Unloading B Accum Wait Time                 327.85    
+Commuting to Terminal Accum VA Time         33.851    
+Commuting to Terminal Accum Wait Time       .85340    
+Unloading A Accum VA Time                   426.52    
+Unloading A Number In                       63.000    
+Unloading B Number In                       37.000    
+Unloading A Number Out                      63.000    
+Unloading B Accum VA Time                   264.52    
+Unloading B Number Out                      37.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            11774.    
+rec.TerminalBLength.ScheduledUtilization    .81648    
+rec.CraneB.NumberSeized                     41.000    
+rec.CraneB.ScheduledUtilization             .99087    
+rec.CraneA.NumberSeized                     66.000    
+rec.CraneA.ScheduledUtilization             .94880    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .14435    
+rec.TerminalALength.NumberSeized            17886.    
+rec.TerminalALength.ScheduledUtilization    .78851    
+System.NumberOut                            100.00    
+
+Beginning replication 20 of 20
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 20 of 20
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+Replication ended at time      : 294.47885 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Commuting to Terminal.VATimePerEntity       .34246     (Insuf)    .14880     .53488        100    
+tal.TimeSpentInHarbor                       57.041     (Insuf)    .00000     159.41        100    
+tal.TimeSpentInSystem                       70.244     (Insuf)    6.3187     187.75        100    
+Unloading A.WaitTimePerEntity               3.2731     (Insuf)    .00000     9.6486         61    
+Unloading B.WaitTimePerEntity               9.3895     (Insuf)    .00000     19.559         39    
+Commuting to Terminal.WaitTimePerEntity     .02940     (Insuf)    .00000     .49859        100    
+Commuting to Terminal.TotalTimePerEntity    .37186     (Insuf)    .14880     .85695        100    
+Unloading A.TotalTimePerEntity              9.7556     (Insuf)    2.7107     18.006         61    
+Unloading B.TotalTimePerEntity              17.640     (Insuf)    6.0365     29.542         39    
+tal.TimeSpentInTerminal                     12.830     (Insuf)    2.7107     29.542        100    
+Unloading A.VATimePerEntity                 6.4824     (Insuf)    2.5931     12.053         61    
+Unloading B.VATimePerEntity                 8.2513     (Insuf)    5.0241     12.608         39    
+ent.Ship.VATime                             7.5148     (Insuf)    2.9653     13.082        100    
+ent.Ship.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.WaitTime                           62.729     (Insuf)    .00000     176.96        100    
+ent.Ship.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+ent.Ship.TotalTime                          70.244     (Insuf)    6.3187     187.75        100    
+Free Len.A.Queue.WaitingTime                4.3228     (Insuf)    .00000     10.357         23    
+Unloading B.Queue.WaitingTime               9.3895     (Insuf)    .00000     19.559         39    
+Liner Terminal A Siezing.Queue.WaitingTime  .05186     (Insuf)    .00000     1.1928         23    
+Commuting to Terminal.Queue.WaitingTime     .02940     (Insuf)    .00000     .49859        100    
+Free Len.A or B.Queue.WaitingTime           72.773     (Insuf)    .00000     159.41         77    
+Feeder Terminal A Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         38    
+Feeder Terminal B Siezing.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         39    
+Unloading A.Queue.WaitingTime               3.2731     (Insuf)    .00000     9.6486         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ent.Ship.WIP                                23.853     (Insuf)    .00000     49.000     .00000    
+rec.TerminalBLength.NumberBusy              751.66     (Insuf)    .00000     999.29     .00000    
+rec.TerminalBLength.NumberScheduled         1000.0     (Insuf)    1000.0     1000.0     1000.0    
+rec.TerminalBLength.Utilization             .75166     (Insuf)    .00000     .99930     .00000    
+rec.CraneB.NumberBusy                       4.8184     (Insuf)    .00000     5.0000     4.0000    
+rec.CraneB.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+rec.CraneB.Utilization                      .96369     (Insuf)    .00000     1.0000     .80000    
+rec.CraneA.NumberBusy                       3.8850     (Insuf)    .00000     4.0000     3.0000    
+rec.CraneA.NumberScheduled                  4.0000     (Insuf)    4.0000     4.0000     4.0000    
+rec.CraneA.Utilization                      .97126     (Insuf)    .00000     1.0000     .75000    
+rec.Canal.NumberBusy                        .11629     (Insuf)    .00000     1.0000     .00000    
+rec.Canal.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Canal.Utilization                       .11629     (Insuf)    .00000     1.0000     .00000    
+rec.TerminalALength.NumberBusy              604.49     (Insuf)    .00000     787.65     .00000    
+rec.TerminalALength.NumberScheduled         800.00     (Insuf)    800.00     800.00     800.00    
+rec.TerminalALength.Utilization             .75561     (Insuf)    .00000     .98457     .00000    
+Free Len.A.Queue.NumberInQueue              .33763     (Insuf)    .00000     5.0000     .00000    
+Unloading B.Queue.NumberInQueue             1.2435     (Insuf)    .00000     2.0000     .00000    
+Liner Terminal A Siezing.Queue.NumberInQue  .00405     (Insuf)    .00000     1.0000     .00000    
+Commuting to Terminal.Queue.NumberInQueue   .00998     (Insuf)    .00000     1.0000     .00000    
+Free Len.A or B.Queue.NumberInQueue         19.028     (Insuf)    .00000     44.000     .00000    
+Feeder Terminal A Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Feeder Terminal B Siezing.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Unloading A.Queue.NumberInQueue             .67801     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Unloading A Accum Wait Time                 199.65    
+Unloading B Accum Wait Time                 366.19    
+Commuting to Terminal Accum VA Time         34.245    
+Commuting to Terminal Accum Wait Time       2.9400    
+Unloading A Accum VA Time                   395.43    
+Unloading A Number In                       61.000    
+Unloading B Number In                       39.000    
+Unloading A Number Out                      61.000    
+Unloading B Accum VA Time                   321.80    
+Unloading B Number Out                      39.000    
+Commuting to Terminal Number In             100.00    
+Commuting to Terminal Number Out            100.00    
+ent.Ship.NumberIn                           100.00    
+ent.Ship.NumberOut                          100.00    
+rec.TerminalBLength.NumberSeized            12341.    
+rec.TerminalBLength.ScheduledUtilization    .75166    
+rec.CraneB.NumberSeized                     43.000    
+rec.CraneB.ScheduledUtilization             .96369    
+rec.CraneA.NumberSeized                     64.000    
+rec.CraneA.ScheduledUtilization             .97126    
+rec.Canal.NumberSeized                      100.00    
+rec.Canal.ScheduledUtilization              .11629    
+rec.TerminalALength.NumberSeized            16767.    
+rec.TerminalALength.ScheduledUtilization    .75561    
+System.NumberOut                            100.00    
+
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                 Output Summary for 20 Replications
+
+Project: Unnamed Project                                             Run execution date :12/16/2022
+Analyst: Mohammad Hossein Mahmoudi                                   Model revision date:12/16/2022
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Unloading A Accum Wait Time                 191.19     64.329     49.411     449.09     20
+Unloading B Accum Wait Time                 348.60     52.801     118.32     508.60     20
+Commuting to Terminal Accum VA Time         33.216     .34992     31.848     34.540     20
+Commuting to Terminal Accum Wait Time       1.4771     .38193     .32289     2.9400     20
+Unloading A Accum VA Time                   381.87     16.093     322.47     447.78     20
+Unloading A Number In                       58.650     2.1808     51.000     67.000     20
+Unloading B Number In                       41.350     2.1808     33.000     49.000     20
+Unloading A Number Out                      58.650     2.1808     51.000     67.000     20
+Unloading B Accum VA Time                   316.42     17.474     257.92     372.73     20
+Unloading B Number Out                      41.350     2.1808     33.000     49.000     20
+Commuting to Terminal Number In             100.00     .00000     100.00     100.00     20
+Commuting to Terminal Number Out            100.00     .00000     100.00     100.00     20
+ent.Ship.NumberIn                           100.00     .00000     100.00     100.00     20
+ent.Ship.NumberOut                          100.00     .00000     100.00     100.00     20
+rec.TerminalBLength.NumberSeized            12976.     681.08     10247.     15381.     20
+rec.TerminalBLength.ScheduledUtilization    .79480     .01889     .71426     .83994     20
+rec.CraneB.NumberSeized                     45.250     2.1413     37.000     53.000     20
+rec.CraneB.ScheduledUtilization             .97858     .00686     .92957     .99245     20
+rec.CraneA.NumberSeized                     61.450     2.0901     54.000     69.000     20
+rec.CraneA.ScheduledUtilization             .96445     .00867     .92428     .99095     20
+rec.Canal.NumberSeized                      100.00     .00000     100.00     100.00     20
+rec.Canal.ScheduledUtilization              .12891     .01251     .09324     .18255     20
+rec.TerminalALength.NumberSeized            15817.     709.16     13515.     19317.     20
+rec.TerminalALength.ScheduledUtilization    .76610     .00773     .73090     .79117     20
+System.NumberOut                            100.00     .00000     100.00     100.00     20
+
+Simulation run time: 0.53 minutes.
+Simulation run complete.

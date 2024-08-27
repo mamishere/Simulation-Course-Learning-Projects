@@ -1,0 +1,31 @@
+[RESOURCES]
+rec.TerminalBLength
+rec.CraneB
+rec.CraneA
+rec.Canal
+rec.TerminalALength
+[VARIABLES]
+Unloading B.WaitTime
+Unloading A.WaitTime
+Ship Kind?.NumberOut True
+A or B Terminal?.NumberOut True
+Disposed.NumberOut
+var.FeedersOut
+var.FeedersIn
+A or B Terminal?.NumberOut False
+Commuting to Terminal.VATime
+Ship Kind?.NumberOut False
+Commuting to Terminal.WaitTime
+Unloading A.VATime
+var.LinersOut
+Which Terminal?.NumberOut True
+Which Terminal?.NumberOut False
+Unloading B.NumberIn
+Unloading A.NumberIn
+Unloading B.NumberOut
+Unloading B.VATime
+Unloading A.NumberOut
+Commuting to Terminal.NumberIn
+Commuting to Terminal.NumberOut
+Ships.NumberOut
+var.LinersIn
