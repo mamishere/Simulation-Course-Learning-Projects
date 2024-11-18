@@ -1,7 +1,5 @@
 # Logistic Simulation in Shipping Ports
 
-## Overview
-
 This project utilizes **Arena simulation software** to model and analyze shipping port operations. The simulation focuses on optimizing port logistics, including ship arrivals, docking, and cargo unloading, to reduce waiting times and enhance resource utilization.
 
 ## Objectives
