@@ -24,7 +24,7 @@ The simulation models key aspects of port logistics:
 ## Methodology
 
 <p align="justify">
-- <strong>Software</strong>: Arena  
+- <strong>Software</strong>: Arena</br>
 - <strong>Technique</strong>: Discrete Event Simulation (DES)  
 </p>
 
@@ -58,7 +58,8 @@ Key metrics analyzed include:
 
 ### Key Findings:
 <p align="justify">
-- Adding one crane to <strong>Terminal A</strong> significantly reduces waiting times for ships.  
+
+- Adding one crane to <strong>Terminal A</strong> significantly reduces waiting times for ships.
 - Further analysis with statistical validation is recommended to confirm these results.
 </p>
 
